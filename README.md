@@ -94,8 +94,8 @@ $$\mathbf{PTCI} = \min\left(100, \; 100 \times \left[ w_1 \left(1 - \frac{v_{\te
 $$\Delta \text{CO}_2 = N_{\text{commuters}} \times \left[ (T_{\text{saved}} \times EF_{\text{idling}}) + (D_{\text{commute}} \times \Delta EF_{\text{speed}}) \right] \times \text{Days}_{\text{work}}$$
 
 * **參數設定**：
-  * 汽車怠速排放係數 ($EF_{\text{car\_idling}} = 0.025\text{ kg CO}_2\text{/min}$)
-  * 機車怠速排放係數 $EF_{\text{scooter\_idling}} = 0.008\text{ kg CO}_2\text{/min}$
+  * 汽車怠速排放係數 ($EF_{\text{car-idling}}$) = ($0.025\text{ kg CO}_2\text{/min}$)
+  * 機車怠速排放係數 ($EF_{\text{scooter-idling}}$) = ($0.008\text{ kg CO}_2\text{/min}$)
   * 汽車低速停等 vs 巡航排放差值 $\Delta EF_{\text{car\_speed}} = 0.055\text{ kg CO}_2\text{/km}$
   * 竹科跨區平均通勤單趟里程 $D_{\text{commute}} = 22.0\text{ km}$
 * **效益試算（以 12,000 人半導體廠、30% 參與率為例）**：
