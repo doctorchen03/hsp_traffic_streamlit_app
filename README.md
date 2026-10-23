@@ -56,9 +56,9 @@ $$\mathbf{PTCI} = \min\left(100, \; 100 \times \left[ w_1 \left(1 - \frac{v_{\te
 * **走走停停衝擊波** ($\frac{\text{Occupancy}}{\text{Occ}_{\text{crit}}}$)。
 * **臨界佔空率** ($\text{Occ}_{\text{crit}} \approx 25\%$)，($w_3 = 0.20$)。
 * **晨尖峰打卡時間壓力加權** ($W_{\text{time}}$)：
-  * 08:00–08:45（打卡生死線）：$W_{\text{time}} = 1.25$
-  * 07:30–08:00（緩衝時段）：$W_{\text{time}} = 1.10$
-  * 其餘時段：$W_{\text{time}} = 1.00$
+  * 08:00–08:45（打卡生死線）：($W_{\text{time}}$) = 1.25$
+  * 07:30–08:00（緩衝時段）：($W_{\text{time}}$) = 1.10$
+  * 其餘時段：($W_{\text{time}}$) = 1.00$
 
 ### PTCI 分級對照：
 * **0–30 分 (綠色，順暢)**：LOS A~B，暢行無阻。
