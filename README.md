@@ -96,7 +96,7 @@ $$\Delta \text{CO}_2 = N_{\text{commuters}} \times \left[ (T_{\text{saved}} \tim
 * **參數設定**：
   * 汽車怠速排放係數 ($EF_{\text{car-idling}}$) = ($0.025\text{ kg CO}_2\text{/min}$)
   * 機車怠速排放係數 ($EF_{\text{scooter-idling}}$) = ($0.008\text{ kg CO}_2\text{/min}$)
-  * 汽車低速停等 vs 巡航排放差值 $\Delta EF_{\text{car\_speed}} = 0.055\text{ kg CO}_2\text{/km}$
+  * 汽車低速停等 vs 巡航排放差值 ($\Delta EF_{\text{car-speed}}$) = ($0.055\text{ kg CO}_2\text{/km}$)
   * 竹科跨區平均通勤單趟里程 $D_{\text{commute}} = 22.0\text{ km}$
 * **效益試算（以 12,000 人半導體廠、30% 參與率為例）**：
   * 單人每日節省通勤時間 21.0 分鐘。
