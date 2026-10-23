@@ -53,7 +53,8 @@ $$\mathbf{PTCI} = \min\left(100, \; 100 \times \left[ w_1 \left(1 - \frac{v_{\te
 ### 參數與權重配置：
 * **車速落差感** ($1 - \frac{v_{\text{act}}}{v_{\text{free}}}$)：敏感度次方 $\alpha = 1.5$，$w_1 = 0.45$。當車速降至速限 30% 以下時，主觀延滯感呈指數型暴增。
 * **容量壓迫感** ($\frac{V}{C}$)：飽和次方 $\beta = 1.2$，$w_2 = 0.35$。當 $V/C \ge 1.0$ 時車距緊貼，帶來強烈空間窒息感。
-* **走走停停衝擊波** ($\frac{\text{Occupancy}}{\text{Occ}_{\text{crit}}}$)：臨界佔空率 $\text{Occ}_{\text{crit}} \approx 25\%$，$w_3 = 0.20$。佔空率過高引發連鎖停等（幽靈塞車）。
+* **走走停停衝擊波** ($\frac{\text{Occupancy}}{\text{Occ}_{\text{crit}}}$)。
+* **臨界佔空率** ($\text{Occ}_{\text{crit}} \approx 25\%$)，($w_3 = 0.20$)。
 * **晨尖峰打卡時間壓力加權** ($W_{\text{time}}$)：
   * 08:00–08:45（打卡生死線）：$W_{\text{time}} = 1.25$
   * 07:30–08:00（緩衝時段）：$W_{\text{time}} = 1.10$
